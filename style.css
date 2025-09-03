@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(62, 141, 102);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(250, 247, 247);
+  margin: 20px 0;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+   background-color: #e3d28a;
+   color:#a54e4e;
+  border: none;
+  font-size: 8vmin;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+   transition: transform 0.2s ease, box-shadow 0.2s ease;
+   
+}
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.reset-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #222, #555);
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+}
+.reset-btn:hover {
+  background: linear-gradient(135deg, #444, #111);
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.6);
+}
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+#msg {
+  color: #ffffc7;
+  font-size: 5vmin;
+}
+#new-btn:hover {
+  background: linear-gradient(135deg, #444, #111);
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.6);
+}
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
+h2 {
+ 
+  margin-bottom: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff8dc;
+  background: #ADA296;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
