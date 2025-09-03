@@ -10,6 +10,6 @@ A simple Tic Tac Toe game built with **HTML, CSS, and JavaScript**.
 - Responsive and styled with CSS
 
 ## 🚀 Live Demo
-[Play Here](https://thanujaa9/tic-tac-toe/)
+[Play Here](cheerful-arithmetic-dddce7.netlify.app)
 
 
